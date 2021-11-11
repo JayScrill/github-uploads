@@ -1,0 +1,55 @@
+/* Body Styles */
+body {
+  background-color: #efeee7;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #333333;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Header Style */
+
+header {
+  background-color: #333333;
+}
+
+h1 {
+  color: #eee;
+  font-size: 28px;
+  padding: 10px 650px;
+  margin: 0px 10px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+.container {
+  width: 1024px;
+  margin: 0px auto;
+}
+
+#main-bio {
+  float: left;
+  width: 70%;
+}
+#contact-info {
+  float: left;
+  width: 30%;
+  line-height: 1.5;
+}
+#bio-image {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 0px 20px 0px 0px;
+}
+a:link {
+  color: #d21034;
+}
+a:hover {
+  color: #9900ff;
+}
+a:visited {
+  color: #00ff00;
+}
