@@ -1,0 +1,55 @@
+.first {
+  font-family: "Lucida Sans Pro";
+  font-size: normal;
+  font-weight: bold;
+  line-height: 3;
+  color: #000;
+  word-wrap: break-word;
+  text-indent: 50px;
+  hyphens: auto;
+}
+
+.second {
+  font-family: sa "Lucida Sans Pro";
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1;
+  color: #222;
+  word-wrap: break-word;
+  text-indent: 50px;
+  hyphens: auto;
+}
+
+.third {
+  font-family: "Lucida Sans Pro";
+  font-size: 24px;
+  font-weight: lighter;
+  line-height: 50px;
+  color: #444;
+  word-wrap: break-word;
+  text-indent: 50px;
+  hyphens: auto;
+}
+
+body {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(38, 224, 94),
+    rgb(35, 102, 226)
+  );
+}
+
+h1 {
+  text-shadow: 2px 3px lightgrey;
+}
+
+.header {
+  background-color: rgb(17, 127, 218);
+  text-align: center;
+  padding: 20px;
+  margin: 30px;
+}
+
+h4 {
+  color: lightgrey;
+}
