@@ -1,19 +1,21 @@
 ### File
 
-* [`example`](Unsolved/example.html)
+- [`example`](Unsolved/example.html)
 
 ### Instructions
 
-* Follow the instructions in the HTML document to incorporate a reset.css file into a basic HTML file.
+- Follow the instructions in the HTML document to incorporate a reset.css file into a basic HTML file.
 
-* Student is to find a reset.css from Google and put it into their directory
+- Student is to find a reset.css from Google and put it into their directory
 
-* _Note the impact the reset file makes after its inclusion._
+- _Note the impact the reset file makes after its inclusion._
 
-* **How can you determine the styles that the browser is using by default (Without the reset being used)?**
+- **How can you determine the styles that the browser is using by default (Without the reset being used)?**
 
-* Discuss with another cohort member: Why are resets important?
+- Discuss with another cohort member: Why are resets important?
 
-* **HINT:** You should be using the CSS made available on this link: <http://meyerweb.com/eric/tools/css/reset/>
+- **HINT:** You should be using the CSS made available on this link: <http://meyerweb.com/eric/tools/css/reset/>
 
-* **BONUS:** Incorporate a CSS reset into any page you've worked on to date.
+- **BONUS:** Incorporate a CSS reset into any page you've worked on to date.
+
+- Bonus: I used the reset.css on 03-MyfirstHTML/first.html

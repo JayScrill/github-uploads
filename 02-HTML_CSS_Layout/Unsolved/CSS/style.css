@@ -5,6 +5,7 @@ body {
   color: #333333;
   padding: 0px;
   margin: 0px;
+  text-align: center;
 }
 
 /* Header Style */
@@ -16,12 +17,13 @@ header {
 h1 {
   color: #eee;
   font-size: 28px;
-  padding: 10px 650px;
+  padding: 10px 150px;
   margin: 0px 10px;
 }
 
 h2 {
   font-size: 24px;
+  text-align: none;
 }
 
 .container {
@@ -52,4 +54,8 @@ a:hover {
 }
 a:visited {
   color: #00ff00;
+}
+
+#name {
+  text-align: left;
 }
