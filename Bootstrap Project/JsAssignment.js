@@ -20,18 +20,20 @@ function myFunction3() {
     var x = document.getElementById('box3');
     if (x.style.display === "none") {
         x.style.display = "block";
-    } else {
+    }
+
+    else {
         x.style.display = "none";
     }
 }
 
 
 function myFunc() {
-   if (document.getElementById('box1').style.backgroundColor == "purple") {
-       document.getElementById('box1').style.backgroundColor = "white";
-   } else {
-       document.getElementById('box1').style.backgroundColor = "purple";
-   }
+    if (document.getElementById('box1').style.backgroundColor == "purple") {
+        document.getElementById('box1').style.backgroundColor = "white";
+    } else {
+        document.getElementById('box1').style.backgroundColor = "purple";
+    }
 
 }
 
@@ -46,11 +48,32 @@ function myFunc2() {
 function myFunc3() {
     if (document.getElementById('box3').style.backgroundColor == "orange") {
         document.getElementById('box3').style.backgroundColor = "blue";
-    } else {
+    }
+
+    else {
         document.getElementById('box3').style.backgroundColor = "orange";
     }
 }
 
-/*function changeAll() {
-    if (document.getElementById('m'))
-}*/
+/* Buttons That Effect All Boxes*/
+
+$(document).ready(function() {
+    $('#hide').on('click', function() {
+    $('#box1 , #box2 , #box3').hide();
+});
+
+});
+
+$(document).ready(function() {
+    $('#show_All').on('click', function() {
+    $('#box1 , #box2 , #box3').show();
+});
+
+});
+
+$(document).ready(function() {
+    $('#change').on('click', function() {
+    $('#box1 , #box2 , #box3').css('background-color', '#3d7388');
+});
+
+});

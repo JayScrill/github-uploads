@@ -19,86 +19,96 @@
 
     <p style="text-align: center; color: white">Bootstrap and JS/jQuery Worksheet</p>
     <h2 style="text-align: center; text-decoration: underline; color: white">Infosys Class Work</h2>
-    <div class="container-fluid">
-        <div class="row row-cols-4 gx-5 justify-content-md-center">
-            <div id="box1" class="col rounded-3 p-4 m-2 border border-3 border-light">Box 1</div>
-            <div id="box2" class="col rounded-3 p-4 m-2">Box 2</div>
-            <div id="box3" class="col rounded-3 p-4 m-2 border border-3 border-danger">Box 3</div>
-        </div>
-    </div>
-
-    <h3 style="text-align: center; text-decoration: underline; color: blue" class="mt-4">Change Buttons</h3>
-
-    <!--**** Change Button ****-->
-
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <button onclick="myFunc()" type="button" class="btn btn-outline-primary rounded-pill">Change Box 1
-                    <i class="bi bi-emoji-heart-eyes-fill"></i></button>
-            </div>
-            <div class="col">
-                <button onclick="myFunc2()" type="button" class="btn btn-outline-info rounded-pill">Change Box 2
-                    <i class="bi bi-emoji-laughing"></i>
-                </button>
-            </div>
-            <div class="col d-flex justify-content-end">
-                <button onclick="myFunc3()" type="button" class="btn btn-outline-primary rounded-pill">Change Box 3
-                    <i class="bi bi-emoji-smile-fill"></i>
-                </button>
-            </div>
-            <div class="col d-flex justify-content-end">
-                <button onclick="changeAll()" type="button" class="btn btn-outline-success rounded-pill">Change All
-                    <i class="bi bi-emoji-sunglasses-fill"></i>
-                </button>
+    <form>
+        <div class="container-fluid">
+            <div class="row row-cols-4 gx-5 justify-content-md-center">
+                <div id="box1" class="col rounded-3 p-4 m-2 border border-3 border-light">Box 1</div>
+                <div id="box2" class="col rounded-3 p-4 m-2">Box 2</div>
+                <div id="box3" class="col rounded-3 p-4 m-2 border border-3 border-danger">Box 3</div>
             </div>
         </div>
-    </div>
-    <h4 style="text-align: center; text-decoration: underline; color: blue" class="mt-4">Hide Buttons</h4>
 
-    <!--**** Hide Buttons ****-->
+        <h3 style="text-align: center; text-decoration: underline; color: blue" class="mt-4">Change Buttons</h3>
 
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <button onclick="myFunction()" type="button" class="btn btn-primary rounded-pill">Hide Box 1
-                    <i class="bi bi-emoji-dizzy-fill"></i>
-                </button>
-            </div>
-            <div class="col">
-                <button onclick="myFunction2()" type="button" class="btn btn-info rounded-pill">Hide Box 2
-                    <i class="bi bi-emoji-frown-fill"></i>
-                </button>
-            </div>
-            <div class="col d-flex justify-content-end">
-                <button onclick="myFunction3()" type="button" class="btn btn-primary rounded-pill">Hide Box 3
-                    <i class="bi bi-emoji-expressionless-fill"></i>
-                </button>
-            </div>
-            <div class="col d-flex justify-content-end">
-                <button type="button" class="btn btn-primary rounded-pill">Hide All
-                    <i class="bi bi-emoji-angry"></i>
-                </button>
+        <!--**** Change Button ****-->
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <button onclick="myFunc()" type="button" class="btn btn-outline-primary rounded-pill">Change Box 1
+                        <i class="bi bi-emoji-heart-eyes-fill"></i></button>
+                </div>
+                <div class="col">
+                    <button onclick="myFunc2()" type="button" class="btn btn-outline-info rounded-pill">Change Box 2
+                        <i class="bi bi-emoji-laughing"></i>
+                    </button>
+                </div>
+                <div class="col d-flex justify-content-end">
+                    <button onclick="myFunc3()" type="button" class="btn btn-outline-primary rounded-pill">Change Box 3
+                        <i class="bi bi-emoji-smile-fill"></i>
+                    </button>
+                </div>
+                <div class="col d-flex justify-content-end">
+                    <button id="change" onclick="changeAll()" type="button"
+                        class="btn btn-outline-success rounded-pill">Change All
+                        <i class="bi bi-emoji-sunglasses-fill"></i>
+                    </button>
+                </div>
             </div>
         </div>
-    </div>
+        <h4 style="text-align: center; text-decoration: underline; color: blue" class="mt-4">Hide Buttons</h4>
 
-    <!--**** Reset Boxes ****-->
+        <!--**** Hide Buttons ****-->
 
-    <div class="container">
-        <div class="row">
-            <div class="col d-inline-flex justify-content-start mt-5">
-                <button type="button" class="btn btn-danger rounded-pill">Reset Colors
-                    <i class="bi bi-exclamation-circle"></i>
-                </button>
-            </div>
-            <div class="col d-inline-flex justify-content-end mt-5">
-                <button type="button reset" value="reset" class="btn btn-warning rounded-pill">Show All
-                    <i class="bi bi-eye"></i>
-                </button>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <button onclick="myFunction()" type="button" class="btn btn-primary rounded-pill">Hide Box 1
+                        <i class="bi bi-emoji-dizzy-fill"></i>
+                    </button>
+                </div>
+                <div class="col">
+                    <button onclick="myFunction2()" type="button" class="btn btn-info rounded-pill">Hide Box 2
+                        <i class="bi bi-emoji-frown-fill"></i>
+                    </button>
+                </div>
+                <div class="col d-flex justify-content-end">
+                    <button onclick="myFunction3()" type="button" class="btn btn-primary rounded-pill">Hide Box 3
+                        <i class="bi bi-emoji-expressionless-fill"></i>
+                    </button>
+                </div>
+                <div class="col d-flex justify-content-end">
+                    <button id="hide" type="button" class="btn btn-primary rounded-pill">Hide All
+                        <i class="bi bi-emoji-angry"></i>
+                    </button>
+                </div>
             </div>
         </div>
-    </div>
+
+        <!--**** Reset Boxes ****-->
+
+        <div class="container">
+            <div class="row">
+                <div class="col d-inline-flex justify-content-start mt-5">
+                    <button onclick="resetAll()" type="button reset" value="reset"
+                        class="btn btn-danger rounded-pill">Reset
+                        Colors
+                        <i class="bi bi-exclamation-circle"></i>
+                    </button>
+                </div>
+                <div id="show_All" onclick="resetBtn()" class="col d-inline-flex justify-content-end mt-5">
+                    <button type="button" class="btn btn-warning rounded-pill">Show
+                        All
+                        <i class="bi bi-eye"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
     <script src="JsAssignment.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
