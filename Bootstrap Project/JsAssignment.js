@@ -71,9 +71,16 @@ $(document).ready(function() {
 
 });
 
-$(document).ready(function() {
+/*$(document).ready(function() {
     $('#change').on('click', function() {
     $('#box1 , #box2 , #box3').css('background-color', '#3d7388');
 });
 
-});
+});*/
+
+$( document ).ready(function() {
+    $('#change').click(function() {
+        var color = '#'+Math.floor(Math.random()*16777215).toString(16);
+        $('#box1, #box2, #box3').css('background-color', color );
+    });
+});     
