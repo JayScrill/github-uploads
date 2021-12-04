@@ -1,3 +1,6 @@
+
+//Hide Boxes Buttons 1 to 3
+
 function myFunction() {
     var x = document.getElementById('box1');
     if (x.style.display === "none") {
@@ -27,6 +30,7 @@ function myFunction3() {
     }
 }
 
+//Button to change color for Box 1
 
 function myFunc() {
     if (document.getElementById('box1').style.backgroundColor == "purple") {
@@ -37,6 +41,8 @@ function myFunc() {
 
 }
 
+//Button to change color for Box 2
+
 function myFunc2() {
     if (document.getElementById('box2').style.backgroundColor == "pink") {
         document.getElementById('box2').style.backgroundColor = "gray";
@@ -45,7 +51,9 @@ function myFunc2() {
     }
 }
 
-function myFunc3() {
+//This Is A Test
+
+/*function myFunc3() {
     if (document.getElementById('box3').style.backgroundColor == "orange") {
         document.getElementById('box3').style.backgroundColor = "blue";
     }
@@ -53,9 +61,21 @@ function myFunc3() {
     else {
         document.getElementById('box3').style.backgroundColor = "orange";
     }
-}
+}*/
+
+// Box 3 Change Using Random Colors
+
+$(document).ready(function() {
+    $('#color_3').click(function() {
+    var color = '#'+Math.floor(Math.random()*16777215).toString(16);
+        $('#box3').css('background-color', color);
+    });
+});
+
 
 /* Buttons That Effect All Boxes*/
+
+//Hide All Boxes
 
 $(document).ready(function() {
     $('#hide').on('click', function() {
@@ -64,12 +84,16 @@ $(document).ready(function() {
 
 });
 
+//To Show All Boxes
+
 $(document).ready(function() {
     $('#show_All').on('click', function() {
-    $('#box1 , #box2 , #box3').show();
+    $('#box1 , #box2 , #box3').show(2000);
 });
 
 });
+
+// This code is a test code 
 
 /*$(document).ready(function() {
     $('#change').on('click', function() {
@@ -77,6 +101,8 @@ $(document).ready(function() {
 });
 
 });*/
+
+//To Give Random Colors To All Boxes
 
 $( document ).ready(function() {
     $('#change').click(function() {
