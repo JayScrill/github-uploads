@@ -67,7 +67,7 @@ function myFunc2() {
     }
 }*/
 
-// Box 3 Change Using Random Colors
+// Button to change color for Box 3 (Random Colors)
 
 $(document).ready(function() {
     $('#color_3').click(function() {
@@ -76,8 +76,7 @@ $(document).ready(function() {
     });
 });
 
-
-/* Buttons That Effect All Boxes*/
+//The Reset Buton Works By It Self
 
 //Hide All Boxes
 
@@ -88,7 +87,7 @@ $(document).ready(function() {
 
 });
 
-//To Show All Boxes
+//Show All Boxes
 
 $(document).ready(function() {
     $('#show_All').on('click', function() {
@@ -106,7 +105,7 @@ $(document).ready(function() {
 
 });*/
 
-//To Give Random Colors To All Boxes
+//Random Colors To All Boxes (Change All Button)
 
 $( document ).ready(function() {
     $('#change').click(function() {
