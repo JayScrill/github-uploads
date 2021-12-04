@@ -1,5 +1,5 @@
 
-//Hide Boxes Buttons 1 to 3
+//Hide Box 1
 
 function myFunction() {
     var x = document.getElementById('box1');
@@ -10,6 +10,8 @@ function myFunction() {
     }
 }
 
+//Hide Box 2
+
 function myFunction2() {
     var x = document.getElementById('box2');
     if (x.style.display === "none") {
@@ -18,6 +20,8 @@ function myFunction2() {
         x.style.display = "none";
     }
 }
+
+//Hide Box 3
 
 function myFunction3() {
     var x = document.getElementById('box3');
